@@ -39,8 +39,12 @@ namespace Algebra1
             //var ne možeš samo deklarirati moraš i inicijalizrati da kompajler zna koji je tip podatka
             var a = "100";//string
             var b = 200;//int
-
-
+            var c =Int32.Parse(a) + b;
+            var d = Convert.ToInt16(c);//short
+            var e = Convert.ToInt64(c);//long
+            Console.WriteLine($"Koliki je c? {c}");
+            //f5 i f10 za debagiranje
+            //debagiranji trabul shooting
             //Console.ReadLine();
         }
     }
