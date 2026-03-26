@@ -17,8 +17,22 @@ namespace Algebra1
              * k+f formatiranje
              *  k+e  ukloni nepotrebne using direktive
              */
+            /*
+             * VARIJABLE
+             * ne smiju krenuti brojem ili rezerviranim riječima
+             * mogu početi velikim slovom ili _
+             * DEKLARACIJA: string ime;
+             * TIPOVI PODATAKA:int(4byte), float(4byte), double(8byte), decimal(16byte)
+             *  bool(1bit), char(2byta), string(2byte po znaku)
+             *  unsigned:od 0 do x, samo pozitivni range
+             *   short, long       
+             *   constant varijable: jednom se deklariraju i inicijaliziraju i ne mijenjaju se
+             
+             */
+
             string name = "Iva";
             Console.WriteLine(name);
+
             //konkatinacija stringa
             Console.WriteLine("Ovo je " + name);
             Console.WriteLine('I');
