@@ -1,5 +1,6 @@
 <Solution>
   <Project Path="../Algebra3/Algebra3.csproj" Id="86d64a04-586e-4fe2-b264-b0b2c57fea6a" />
   <Project Path="../AlgebraZadaci/AlgebraZadaci.csproj" Id="4fd155a8-5f8c-4192-b0ea-a146a8ecc407" />
+  <Project Path="../AzgebraZadatakKlase1/AzgebraZadatakKlase1.csproj" Id="f599d09c-dfaf-4dfc-a7e6-28e2332d0e0d" />
   <Project Path="Algebra1.csproj" />
 </Solution>
